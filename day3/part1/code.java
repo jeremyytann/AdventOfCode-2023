@@ -15,7 +15,6 @@ public class code {
       ArrayList<String> lines = new ArrayList<String>();
       
       int total = 0;
-      int totalLineNum = 0;
       int lineNum = 1;
 
       // solve problem here
@@ -23,7 +22,6 @@ public class code {
       while (lineReader.hasNextLine()) {
         String line = lineReader.nextLine();
         lines.add(line);
-        totalLineNum++;
       }
 
       lineReader.close();
